@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  border: 0;
+  border: none;
 }
 
 html {
@@ -15,20 +15,95 @@ body {
 }
 
 header {
-  background-color: blue;
+  background-color: #2F4B58;
+  color: #EDF5F7;
+  justify-content: center;
+  padding: 20px;
+  display: flex;
+}
+.logo {
+  display: flex;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fa-calculator {  
+  font-size: 30px;
+  margin-right: 10px;
+  color: #EDF5F7;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+main {  
+  background-color: #EDF5F7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#results {
+  margin-bottom: 20px;
+}
+
+main section {
+  background-color: white;
+  margin-top: 20px ;
+  min-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
   padding: 20px;
 }
 
-main {
-  background-color: blueviolet;
+main section input {
+  font-size: 3rem;
+  border: 2px solid #2F4B58;
+  border-radius: 5px;
+  font-family: 'Cairo', sans-serif;
+  width: 10rem;
+  padding: 0.15rem;
+  text-align: center;
+  margin: 20px;
+}
+
+main section #calc-actions {
+  display: flex;
+}
+
+main section button {
+  margin: 10px;
   padding: 20px;
-}
-button {
-  padding: 10px;
+  background-color: #2F4B58;
+  color: #EDF5F7;
   cursor: pointer;
+  border-radius: 50%;
+  width: 82px;
+  height: 82px;
+  font-family: 'Cairo', sans-serif;
 }
+main section button:hover,   
+main section button:active {  
+  background-color: tomato;
+  text-decoration: none;
+  color: #EDF5F7;  
+}
+
+
 
 footer {
-  background-color: chartreuse;
+  background-color: tomato;
   padding: 20px;
+  text-align: center;
+  color: #EDF5F7;
+}
+
+.fa-github {
+  margin-right: 10px;
 }

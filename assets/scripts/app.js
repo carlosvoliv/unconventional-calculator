@@ -53,7 +53,7 @@ const multiply = () => {
 const divide = () => {
   const enteredNumber = getUserNumberInput();
   const initialResult = currentResult;
-  currentResult += enteredNumber;
+  currentResult /= enteredNumber;
   createAndWriteOutput('/', initialResult, enteredNumber);
   writeToLog('DIVIDE', initialResult, enteredNumber, currentResult);
 };
