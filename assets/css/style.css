@@ -4,6 +4,10 @@
   border: 0;
 }
 
+html {
+  font-family: 'Cairo', sans-serif;
+}
+
 body {
   display: grid;
   height: 100vh;
