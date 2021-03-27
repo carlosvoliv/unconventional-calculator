@@ -19,6 +19,10 @@ main {
   background-color: blueviolet;
   padding: 20px;
 }
+button {
+  padding: 10px;
+  cursor: pointer;
+}
 
 footer {
   background-color: chartreuse;
