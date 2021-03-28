@@ -87,6 +87,7 @@ main section button {
   width: 82px;
   height: 82px;
   font-family: 'Cairo', sans-serif;
+  font-weight: bolder;
 }
 main section button:hover,   
 main section button:active {  
